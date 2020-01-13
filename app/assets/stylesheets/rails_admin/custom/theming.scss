@@ -1,0 +1,18 @@
+#new_song .artist_field .btn.btn-info.create, #new_song .artist_field .btn.btn-info.update {
+  display: none
+}
+.file_field span.help-block:before {
+  font-size: 14px;
+  content: 'Required.';
+}
+.file_field span.help-block {
+  font-size: 0;
+}
+
+.btn[data-link="/admin/song/new?modal=true"] {
+  display: none;
+}
+
+.btn[data-link="/admin/song/__ID__/edit?modal=true"] {
+  display: none;
+}
